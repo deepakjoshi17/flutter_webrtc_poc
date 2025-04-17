@@ -1,0 +1,280 @@
+{
+  "project_info": {
+    "project_number": "825090394717",
+    "project_id": "bhanzu-customer-auth",
+    "storage_bucket": "bhanzu-customer-auth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825090394717:android:66344242b18fe3ce81dbb4",
+        "android_client_info": {
+          "package_name": "com.bhanzu.flutterwebrtcpoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLtCjARhznXtYlQMKipybSQEhcHzQ9rR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "825090394717-47rljc97lou25mg7abtcf0v7jdusipql.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bhanzu.parentapp",
+                "app_store_id": "1659599677"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825090394717:android:13893d5f5b9dfcb481dbb4",
+        "android_client_info": {
+          "package_name": "com.expinfi.bhanzu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825090394717-an6r6s2gqsbaebo1um7vk4r0fjgf8sb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expinfi.bhanzu",
+            "certificate_hash": "7a3b97b1a1742032f625e220fd65325b7b9ca9ec"
+          }
+        },
+        {
+          "client_id": "825090394717-r1kgsc57dqnd87r43qstda88dop4fgfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expinfi.bhanzu",
+            "certificate_hash": "531c47d01de573ca7d0b2374162c071d8e76cf0f"
+          }
+        },
+        {
+          "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLtCjARhznXtYlQMKipybSQEhcHzQ9rR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "825090394717-47rljc97lou25mg7abtcf0v7jdusipql.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bhanzu.parentapp",
+                "app_store_id": "1659599677"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825090394717:android:0497a07a479e13cd81dbb4",
+        "android_client_info": {
+          "package_name": "com.expinfi.bhanzu.bhanzu_student_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825090394717-m5p3dsv6a6dh37k49lm52csbaa6h1iqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expinfi.bhanzu.bhanzu_student_mobile",
+            "certificate_hash": "adde322cbbe19bb4e8146ed8e8ff702c64b47673"
+          }
+        },
+        {
+          "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLtCjARhznXtYlQMKipybSQEhcHzQ9rR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "825090394717-47rljc97lou25mg7abtcf0v7jdusipql.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bhanzu.parentapp",
+                "app_store_id": "1659599677"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825090394717:android:8a9149849de1a08b81dbb4",
+        "android_client_info": {
+          "package_name": "com.expinfi.bhanzu.bhanzu_student_mobile.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825090394717-cim5sjc7uv8g399j42uehmkset9iha17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expinfi.bhanzu.bhanzu_student_mobile.dev",
+            "certificate_hash": "adde322cbbe19bb4e8146ed8e8ff702c64b47673"
+          }
+        },
+        {
+          "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLtCjARhznXtYlQMKipybSQEhcHzQ9rR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "825090394717-47rljc97lou25mg7abtcf0v7jdusipql.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bhanzu.parentapp",
+                "app_store_id": "1659599677"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825090394717:android:af632d2fdbdb738b81dbb4",
+        "android_client_info": {
+          "package_name": "com.expinfi.bhanzu.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825090394717-lh1g2ddlom4ri0cknda09blh8hnflsa6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expinfi.bhanzu.dev",
+            "certificate_hash": "7a3b97b1a1742032f625e220fd65325b7b9ca9ec"
+          }
+        },
+        {
+          "client_id": "825090394717-tmv4tdsk4rkl22vs7mdvmbe5lagkv3jp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expinfi.bhanzu.dev",
+            "certificate_hash": "531c47d01de573ca7d0b2374162c071d8e76cf0f"
+          }
+        },
+        {
+          "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLtCjARhznXtYlQMKipybSQEhcHzQ9rR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "825090394717-47rljc97lou25mg7abtcf0v7jdusipql.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bhanzu.parentapp",
+                "app_store_id": "1659599677"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825090394717:android:adc2313147cda9fc81dbb4",
+        "android_client_info": {
+          "package_name": "dev.flutterexplained.webrtc_tutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLtCjARhznXtYlQMKipybSQEhcHzQ9rR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825090394717-1hijjqflg8dul601gnjvnhrbk18g79bf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "825090394717-47rljc97lou25mg7abtcf0v7jdusipql.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bhanzu.parentapp",
+                "app_store_id": "1659599677"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
