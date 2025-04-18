@@ -72,49 +72,53 @@ class MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: [
           SizedBox(height: 8),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              ElevatedButton(
-                onPressed: () {
-                  signaling.openUserMedia(_localRenderer, _remoteRenderer);
-                },
-                child: Text("Open camera & microphone"),
-              ),
-              SizedBox(
-                width: 8,
-              ),
-              ElevatedButton(
-                onPressed: () async {
-                  roomId = await signaling.createRoom(_remoteRenderer);
-                  textEditingController.text = roomId!;
-                  setState(() {});
-                },
-                child: Text("Create room"),
-              ),
-              SizedBox(
-                width: 8,
-              ),
-              ElevatedButton(
-                onPressed: () {
-                  // Add roomId
-                  signaling.joinRoom(
-                    textEditingController.text.trim(),
-                    _remoteRenderer,
-                  );
-                },
-                child: Text("Join room"),
-              ),
-              SizedBox(
-                width: 8,
-              ),
-              ElevatedButton(
-                onPressed: () {
-                  signaling.hangUp(_localRenderer);
-                },
-                child: Text("Hangup"),
-              )
-            ],
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                ElevatedButton(
+                  onPressed: () async {
+                    await signaling.openUserMedia(_localRenderer, _remoteRenderer);
+                    setState(() {});
+                  },
+                  child: Text("Open camera & microphone"),
+                ),
+                SizedBox(
+                  width: 8,
+                ),
+                ElevatedButton(
+                  onPressed: () async {
+                    roomId = await signaling.createRoom(_remoteRenderer);
+                    textEditingController.text = roomId!;
+                    setState(() {});
+                  },
+                  child: Text("Create room"),
+                ),
+                SizedBox(
+                  width: 8,
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    // Add roomId
+                    signaling.joinRoom(
+                      textEditingController.text.trim(),
+                      _remoteRenderer,
+                    );
+                  },
+                  child: Text("Join room"),
+                ),
+                SizedBox(
+                  width: 8,
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    signaling.hangUp(_localRenderer);
+                  },
+                  child: Text("Hangup"),
+                )
+              ],
+            ),
           ),
           SizedBox(height: 8),
           Expanded(
